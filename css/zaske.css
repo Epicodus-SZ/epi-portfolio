@@ -1,10 +1,3 @@
-body {
-}
-
-.container {
-
-}
-
 #header {
   padding: 0px;
 }
@@ -19,6 +12,10 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.secular {
+  font-family: 'Secular One';font-size: 22px;  
+}
+
 #avatar {
   float: left;
   width:230px;
@@ -27,7 +24,12 @@ body {
 }
 
 #aboutMeRow {
+  padding-left: 50px;
   z-index: -3;
+}
+
+#expRow {
+  padding-left: 50px;
 }
 .ProjectPadding {
   padding: 5px;
