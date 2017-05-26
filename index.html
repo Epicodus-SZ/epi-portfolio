@@ -4,56 +4,60 @@
 <head>
   <title>The Zaske Portfolio</title>
   <meta name="author" content="Steve Zaske">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/theme.css" rel="stylesheet" type="text/css" media="all">
   <link href="css/zaske.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 <body>
   <div class="container">
     <div class="row">
-      <div id="header" class="col-md-12 bg-danger section centered">
-        Steve Zaske
+      <div id="header" class="col-md-12 bg-danger">
+        <div class="jumbotron">
+          <img id="avatar" class="img-responsive" src="img/me.png" alt="Drawing of me.">
+          <h1>Hi, I'm Steve</h1>
+          <p>...software developer, with experience programming in Python, Java, Android and various JS frameworks.</p>
+        </div>
       </div>
-      <div id="aboutMeRow" class="col-md-12 bg-success section centered">
-        About me
+      <div id="aboutMeRow" class="col-md-12 bg-success centered">
+        <!--About me-->
+        <h2>About me...</h2>
+        <!--Hobbie-->
+        <h4>Hobbies:</h4>
+        <ul>
+          <li>Web &amp; Mobile App Development</li>
+          <li>Adobe <em>After Effects</em></li>
+          <li><strong>Christmas lights<strong></li>
+        <!--Experience-->
+
+
       </div>
-      <div id="projectsRow" class="row bg-danger section centered">
-        <div class="col-sm-3 ProjectPadding">
+      <div id="projectsRow" class="projectRow row col-md-12">
+        <div class="col-sm-4 ProjectPadding">
           <!--portfolio item-->
           <div class="panel panel-default bg-warning PortfolioItem">
             <div class="PortfolioItem panel-body">
-              <h2>Item name</h2>
-              <p>description goes here. It was a fun project.</p>
+              <h3>XmasButton</h3>
+              <p class="small">A python app that controls the volume on an Onkyo receiver via GPIO pins on a Raspberry Pi.</p>
               <a href="#" class="btn btn-info" role="button">Source</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 bg-success ProjectPadding">
+        <div class="col-sm-4 bg-success ProjectPadding">
           <!--portfolio item-->
           <div class="panel panel-default bg-warning PortfolioItem">
             <div class="PortfolioItem panel-body">
-              <h2>Item name</h2>
-              <p>description goes here. It was a fun project.</p>
+              <h3>ForJillian</h3>
+              <p class="small">An Android app of our new kitten Dallas, with purring and meow audio. Uses the Picasso Library.</p>
               <a href="#" class="btn btn-info" role="button">Source</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 ProjectPadding">
+        <div class="col-sm-4 ProjectPadding">
           <!--portfolio item-->
           <div class="panel panel-default bg-warning PortfolioItem">
             <div class="PortfolioItem panel-body">
-              <h2>Item name</h2>
-              <p>description goes here. It was a fun project.</p>
-              <a href="#" class="btn btn-info" role="button">Source</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 bg-success ProjectPadding">
-          <!--portfolio item-->
-          <div class="panel panel-default bg-warning PortfolioItem">
-            <div class="PortfolioItem panel-body">
-              <h2>Item name</h2>
-              <p>description goes here. It was a fun project.</p>
+              <h3>epi-portfolio</h3>
+              <p class="small">An example portfolio website design demonstrating the Bootstrap CSS framework.</p>
               <a href="#" class="btn btn-info" role="button">Source</a>
             </div>
           </div>

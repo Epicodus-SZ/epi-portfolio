@@ -1,7 +1,23 @@
 body {
-  background-color: #1e1e1e;
 }
 
+#avatar {
+  width:200px;
+}
 .ProjectPadding {
   padding: 5px;
+}
+
+.PortfolioItem {
+  border-radius: 5px;
+}
+
+.projectRow {
+    display: table;
+}
+
+.projectRow [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
 }
