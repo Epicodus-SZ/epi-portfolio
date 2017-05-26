@@ -1,4 +1,4 @@
-# Epi Portfolio
+# Epi-portfolio
 A demonstration of web design using the excellent Bootstrap framework.
 
 #### A website design, 05-26-2017
@@ -19,6 +19,7 @@ epi-portfolio/
 ```
 
 ## Setup & Support
+You can see the website in action here https://epicodus-sz.github.io/epi-portfolio/
 
 Direct questions and comments to: github@zaske.com
 
