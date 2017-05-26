@@ -16,7 +16,7 @@ epi-portfolio/
 ```
 
 ## Setup & Support
-You can git your own copy of this code by cloning the repository.  You can do that if you have git install.  The command is
+You can get your own copy of this code by cloning the repository.  You can do that if you have git installed.  The command is
 ```
 git clone https://github.com/Epicodus-SZ/epi-portfolio.git
 ```
