@@ -11,14 +11,14 @@
 <body>
   <div class="container">
     <div class="row">
-      <div id="header" class="col-md-12 bg-danger">
-        <div class="jumbotron">
+      <div id="header" class="col-md-12">
+        <div class="head">
           <img id="avatar" class="img-responsive" src="img/me.png" alt="Drawing of me.">
           <h1>Hi, I'm Steve</h1>
           <p>...software developer, with experience programming in Python, Java, Android and various JS frameworks.</p>
         </div>
       </div>
-      <div id="aboutMeRow" class="col-md-12 bg-success centered">
+      <div id="aboutMeRow" class="col-lg-6 col-md-12">
         <!--About me-->
         <h2>About me...</h2>
         <!--Hobbie-->
@@ -27,38 +27,47 @@
           <li>Web &amp; Mobile App Development</li>
           <li>Adobe <em>After Effects</em></li>
           <li><strong>Christmas lights<strong></li>
-        <!--Experience-->
-
-
+        </ul>
       </div>
+
+      <div id="expRow" class="col-md-6 col-md-12">
+        <!--Work-->
+        <h2>Work Experience...</h2>
+        <ol>
+          <li>Senior Program Manager, Microsoft</li>
+          <li>Senior Product Planner, Microsoft</li>
+          <li>Technical Marketing Manager, Intel</li>
+        </ol>
+      </div>
+
       <div id="projectsRow" class="projectRow row col-md-12">
         <div class="col-sm-4 ProjectPadding">
           <!--portfolio item-->
-          <div class="panel panel-default bg-warning PortfolioItem">
+          <div class="panel panel-default PortfolioItem">
             <div class="PortfolioItem panel-body">
               <h3>XmasButton</h3>
               <p class="small">A python app that controls the volume on an Onkyo receiver via GPIO pins on a Raspberry Pi.</p>
-              <a href="#" class="btn btn-info" role="button">Source</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 bg-success ProjectPadding">
-          <!--portfolio item-->
-          <div class="panel panel-default bg-warning PortfolioItem">
-            <div class="PortfolioItem panel-body">
-              <h3>ForJillian</h3>
-              <p class="small">An Android app of our new kitten Dallas, with purring and meow audio. Uses the Picasso Library.</p>
-              <a href="#" class="btn btn-info" role="button">Source</a>
+              <a href="#" class="btn btn-primary" role="button">Source</a>
             </div>
           </div>
         </div>
         <div class="col-sm-4 ProjectPadding">
           <!--portfolio item-->
-          <div class="panel panel-default bg-warning PortfolioItem">
+          <div class="panel panel-default PortfolioItem">
+            <div class="PortfolioItem panel-body">
+              <h3>ForJillian</h3>
+              <p class="small">An Android app of our new kitten Dallas, with purring and meow audio. Uses the Picasso Library.</p>
+              <a href="#" class="btn btn-primary" role="button">Source</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 ProjectPadding">
+          <!--portfolio item-->
+          <div class="panel panel-default PortfolioItem">
             <div class="PortfolioItem panel-body">
               <h3>epi-portfolio</h3>
               <p class="small">An example portfolio website design demonstrating the Bootstrap CSS framework.</p>
-              <a href="#" class="btn btn-info" role="button">Source</a>
+              <a href="#" class="btn btn-primary" role="button">Source</a>
             </div>
           </div>
         </div>

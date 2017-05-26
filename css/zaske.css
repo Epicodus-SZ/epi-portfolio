@@ -1,8 +1,33 @@
 body {
 }
 
+.container {
+
+}
+
+#header {
+  padding: 0px;
+}
+
+.head {
+  /** margin: Top, right, bottom, left **/
+  margin: 20px 0px 0px 0px;
+  border: 2px solid #DF691A;
+  border-radius: 15px;
+  height: 220px;
+  background-color: #4E5D6C;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #avatar {
-  width:200px;
+  float: left;
+  width:230px;
+  margin-top: -50px;
+  margin-bottom: -40px;
+}
+
+#aboutMeRow {
+  z-index: -3;
 }
 .ProjectPadding {
   padding: 5px;
@@ -13,11 +38,6 @@ body {
 }
 
 .projectRow {
-    display: table;
-}
-
-.projectRow [class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
+    margin:0px;
+    padding: 0px;
 }
