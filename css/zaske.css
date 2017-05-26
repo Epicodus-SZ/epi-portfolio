@@ -1,3 +1,7 @@
+.container{
+  margin-top: 30px;
+}
+
 #header {
   padding: 0px;
 }
@@ -7,13 +11,16 @@
   margin: 20px 0px 0px 0px;
   border: 2px solid #DF691A;
   border-radius: 15px;
-  height: 220px;
+  min-height: 220px;
   background-color: #4E5D6C;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.head h1 {
+  font-size: 225%;
+}
 
 .secular {
-  font-family: 'Secular One';font-size: 22px;  
+  font-family: 'Secular One';font-size: 22px;
 }
 
 #avatar {
@@ -21,15 +28,23 @@
   width:230px;
   margin-top: -50px;
   margin-bottom: -40px;
+  position: relative;
+  z-index: 10;
 }
 
 #aboutMeRow {
   padding-left: 50px;
-  z-index: -3;
+  z-index: 1;
+}
+
+#infoRow {
+  padding-left: 50px;
+  padding-bottom: 30px;
 }
 
 #expRow {
   padding-left: 50px;
+  padding-bottom: 30px;
 }
 .ProjectPadding {
   padding: 5px;

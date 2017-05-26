@@ -1,12 +1,8 @@
 # Epi-portfolio
-A demonstration of web design using the excellent Bootstrap framework.
-
-#### A website design, 05-26-2017
-
-#### CSS & Design By Steve Zaske
+A demonstration of web design using the excellent Bootstrap framework.  Originally coded on 5/26/2017.  HTML, CSS & design By Steve Zaske
 
 ## What's included
-Within the download you'll find the following directories and files:
+Within the repository you'll find the following directories and files:
 
 ```
 epi-portfolio/
@@ -15,16 +11,24 @@ epi-portfolio/
 │   └── zaske.css
 ├── img/
 │    └── me.png
-└── index.html
+├── index.html
+└── README.md
 ```
 
 ## Setup & Support
-You can see the website in action here https://epicodus-sz.github.io/epi-portfolio/
+You can git your own copy of this code by cloning the repository.  You can do that if you have git install.  The command is
+```
+git clone https://github.com/Epicodus-SZ/epi-portfolio.git
+```
 
-Direct questions and comments to: github@zaske.com
+You can see the web page in action by following [this link](https://epicodus-sz.github.io/epi-portfolio/)
+
+Direct questions and comments to: [github@zaske.com](mailto:github@zaske.com)
 
 ## Technologies Used
-HTML, CSS (Bootstrap)
+* HTML
+* CSS ([Bootstrap](https://github.com/twbs/bootstrap))
+* [Google fonts](https://fonts.google.com/)
 
 ### License
 Copyright 2017 Steve Zaske
